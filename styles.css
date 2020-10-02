@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#editor {
+    width: 794px;
+    margin: auto;
+    background-color: white;
+}

@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#hyphen-header {
+    outline: none;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#hyphen-header-upper {
+    display: flex;
+}
+
+#hyphen-header-upper-middlebar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#hyphen-titlebar {
+    height: 33px;
+    padding-top: 9px;
+}
+
+#hyphen-title-input {
+    padding: 2px 7px;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#hyphen-title-input:hover {
+    border: 1px solid rgb(229, 229, 229);
+}
+
+#hyphen-menubar {
+    display: flex;
+}
+
+.menu-button {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 4px 6px;
+    color: rgb(32, 33, 36);
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+#hyphen-logo-container {
+    padding: 0;
+    margin: 0;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+}
+
+#hyphen-logo-container a {
+    margin: 4px 0px 4px 8px;
+    padding: 8px;
+}
