@@ -4,8 +4,19 @@
     padding: 0;
 }
 
-#editor {
+body {
+    background-color: #eeeeee;
+}
+
+#main-container {
     width: 794px;
     margin: auto;
+}
+
+#editor {
+    width: 100%;
+    min-height: 500px;
     background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
 }
